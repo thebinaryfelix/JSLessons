@@ -1,0 +1,87 @@
+/* 
+    Electric blue:............#2DC5FA
+    Dark blue:................#2D354C
+    Soft black:...............#181B23
+    Ruby:.....................#EC3A35
+    Orange:...................#F78F32
+    Soft yellow:..............#FFD26F
+    Deep blue:................#008B9C
+    Soft green:...............#72C0BC
+    Soft red:.................#F67373
+    Grey:.....................#6E737C
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i,900');
+.btest {
+    border: 1px solid red;
+}
+
+.hidden {
+    display: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto-Mono', monospace;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ffffff;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    line-height: 1.9em;
+    list-style-type: none;
+    font-size: 0.9em;
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 8px;
+    padding: 5px;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+li:hover{
+    background-color: #2D354C;
+    border: 1px solid #2DC5FA;
+    cursor: pointer;
+}
+
+code {
+    background-color: rgb(230, 230, 230);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+textarea {
+    font-size: 0.7em;
+}
+
+section {
+    font-family: 'Roboto-Mono', monospace;
+    margin-top: 20px;
+}
+
+.section-title {
+    background-color: #2DC5FA;
+    border-radius: 8px;
+    padding: 3px;
+    color: #2D354C;
+}
