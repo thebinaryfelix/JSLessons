@@ -2,20 +2,19 @@
   <img src="assets/logo.png" alt="Ironhack - Coding School" width="200px" class="m-4">
   <h1>JS Lessons</h1>
 </header>
-<section id="basic-section" class="container p-0">
-  <div class="m-auto col-md-10 text-center section-title">
+<section id="basic-section" class="container">
+  <div class="col-md-10 text-center section-title">
     <h2>BASIC JAVASCRIPT</h2>
   </div>
-  <div class="m-auto col-md-10">
-
+  <div class="col-md-10">
     <ul>
-        <a *ngFor="let item of items" [href]="item.link"
+        <a *ngFor="let item of pageOfItems" [href]="item.link"
             target="_blank">
             <li>
                 {{item.title}}
             </li>
         </a>
     </ul>
-
+    <jw-pagination [items]="items" (changePage)="onChangePage($event)"></jw-pagination>
   </div>
 </section>

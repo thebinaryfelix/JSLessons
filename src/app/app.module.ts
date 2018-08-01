@@ -3,9 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { JwPaginationComponent } from 'jw-angular-pagination';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    JwPaginationComponent
   ],
   imports: [
     BrowserModule

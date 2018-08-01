@@ -7,6 +7,9 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
   title = "app";
+
+  pageOfItems: Array<any>;
+
   items = [
     {
       title: "Declare String Variables",
@@ -340,4 +343,9 @@ export class AppComponent {
         "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/generate-random-whole-numbers-within-a-range/"
     }
   ];
+
+  onChangePage(pageOfItems: Array<any>) {
+    this.pageOfItems = pageOfItems;
+}
+
 }
