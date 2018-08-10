@@ -12,6 +12,81 @@ export class AppComponent {
 
   items = [
     {
+      title: "Comment your JavaScript Code",
+      link:
+        "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comment-your-javascript-code"
+    },
+    {
+      title: "Declare JavaScript Variables",
+      link:
+        "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/declare-javascript-variables"
+    },
+    {
+      title: "Storing Values with the Assignment Operator",
+      link:
+        "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator"
+    },
+    {
+      title: "Initializing Variables with the Assignment Operator",
+      link:
+        "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/initializing-variables-with-the-assignment-operator"
+    },
+    {
+      title: "Understanding Uninitialized Variables",
+      link:
+        "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/understanding-uninitialized-variables"
+    },
+    {
+      title: "Understanding Case Sensitivity in Variables",
+      link:
+        "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/understanding-case-sensitivity-in-variables"
+    },
+    {
+      title: "Add Two Numbers with JavaScript",
+      link:
+        "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/add-two-numbers-with-javascript"
+    },
+    {
+      title: "Increment a Number with JavaScript",
+      link:
+        "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/increment-a-number-with-javascript"
+    },
+    {
+      title: "Decrement a Number with JavaScript",
+      link:
+        "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/decrement-a-number-with-javascript"
+    },
+    {
+      title: "Create Decimal Numbers with JavaScript",
+      link:
+        "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/create-decimal-numbers-with-javascript"
+    },
+    {
+      title: "Finding a Remainder in JavaScript",
+      link:
+        "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/finding-a-remainder-in-javascript"
+    },
+    {
+      title: "Compound Assignment With Augmented Addition",
+      link:
+        "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-addition"
+    },
+    {
+      title: "Compound Assignment With Augmented Subtraction",
+      link:
+        "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-subtraction"
+    },
+    {
+      title: "Compound Assignment With Augmented Multiplication",
+      link:
+        "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication"
+    },
+    {
+      title: "Compound Assignment With Augmented Division",
+      link:
+        "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-division"
+    },
+    {
       title: "Declare String Variables",
       link:
         "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/declare-string-variables/"
